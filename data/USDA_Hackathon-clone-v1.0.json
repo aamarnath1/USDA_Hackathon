@@ -1,0 +1,1375 @@
+{
+    "name": "v1.0",
+    "description": "labelled",
+    "created_at": "2024-04-06 04:55:36.849670+00:00",
+    "dataset": {
+        "name": "USDA_Hackathon-clone",
+        "description": "",
+        "category": "Agriculture",
+        "created_at": "2024-04-06 04:51:52.297181+00:00",
+        "owner": "aamarnath1",
+        "task_type": "segmentation-bitmap",
+        "task_attributes": {
+            "format_version": "0.1",
+            "categories": [
+                {
+                    "name": "Ribeye",
+                    "id": 1,
+                    "color": [
+                        0,
+                        113,
+                        188
+                    ],
+                    "attributes": []
+                },
+                {
+                    "id": 2,
+                    "name": "Fat Thickness",
+                    "color": [
+                        236,
+                        176,
+                        31
+                    ],
+                    "attributes": []
+                }
+            ]
+        },
+        "tasks": {
+            "ground-truth": {
+                "description": "",
+                "task_type": "",
+                "attributes": {}
+            }
+        },
+        "labelsets": [
+            {
+                "name": "ground-truth",
+                "description": "",
+                "is_groundtruth": true,
+                "created_at": "2024-04-06 04:51:52.334762+00:00"
+            }
+        ],
+        "samples": [
+            {
+                "uuid": "c7872157-eb99-4944-b891-b071e59de64c",
+                "name": "00001276-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/bfac037d-09d0-4a24-9985-13500c275e2b.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/1b21c6f3-f67f-4fa9-80c2-d59e0aca0d20.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "72127901-6e17-4502-86aa-54301aa9a5fd",
+                "name": "00001278-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/dda32dbe-87e0-4159-a69e-a5d3a245c821.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/d0c7742f-96d6-4b94-970c-691c9b3f2d25.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "86983421-c036-4cda-a0ba-4dbbd7fda44e",
+                "name": "00001303-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/5446c6f7-e324-4ec9-b6cc-e47d640cee80.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/363fbb61-2e7c-455c-8ebe-671cf4eefa00.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "efc11fea-5c0e-413c-a89c-64592379ccf2",
+                "name": "00001429-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/14df292d-1f32-4289-b4bf-1b1a2f28a4c6.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/ac42c39c-0199-4f87-b35a-1dbc07784486.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "0f7779c4-73ba-4349-978c-8cbb88fe1264",
+                "name": "00001418-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/2ef053bf-80b9-419e-a8d2-47ac393bae71.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/67c112b8-f158-4152-8507-aaf3610bfe81.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "e4d3991f-02c4-41f1-966f-9c5684dfe588",
+                "name": "00001427-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/539c6a19-42d8-41f1-b62d-ed0d5b511501.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/132ad050-0fd9-4f79-9b56-b6026cad6def.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "0200173e-e0df-4d1f-887a-bdc43e01987e",
+                "name": "00001432-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/50e84082-90a8-42de-b3e8-b29126767e11.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/18c574cb-c50f-4570-a5ef-efe94058104c.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "42962580-c57b-487a-ad3b-a2164cca33c9",
+                "name": "00001347-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/35c64dba-172c-452b-86c4-e36198e499b0.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/fd0e728e-2bb6-45ef-b245-d16452ced18b.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "3a8713a4-b4ce-4887-82ec-bc298bc7709a",
+                "name": "00001273-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/c49ac1da-997a-429f-9ef6-c7624e0bc388.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/0e51e30d-aaf0-40da-89d9-3c03fad0cd75.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "46fa4b14-ad3a-4db0-aab5-c22a297b90d3",
+                "name": "00001297-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/63f284e6-4746-4667-a843-1407a37c7a04.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/25f18b92-b841-46b5-997b-975b60dcaf24.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "174b38a2-547d-4fed-a05d-b5a9be33fe78",
+                "name": "00001330-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/6d405158-8d42-4726-bcba-0f0ea0bb663a.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REJECTED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/bd6728de-3e62-4124-9500-26f67fd3547b.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "84efe2de-90f2-4653-868a-f95357c1b551",
+                "name": "00001325-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/a531c2c0-be89-4b93-8826-77db59d53160.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/da8051d3-35e3-47f0-b2c4-f1298d830425.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "6e635c13-0ae1-4ddf-87dc-0c0beabff551",
+                "name": "00001362-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/d174cf30-6e39-40b9-b787-c341d1167c74.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/d1006a5e-b09f-4a47-a57d-a21c711e1c35.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "3d9c5ec6-9bd4-480f-ac44-0c2e31188024",
+                "name": "00001352-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/38cb9718-eff8-4418-8a0c-5070c1b7d198.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/399323f0-ad02-438e-9eb5-0470d25fef1e.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "22978874-64ae-485b-9f92-e53afa6b4359",
+                "name": "00001369-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/732cf304-56c7-4090-8ba5-264ec3d5cc9e.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/e8828ccf-37fe-4e1b-b29b-6a97aff0929f.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "4cc08c00-9467-4cd6-b7a7-a41773237ad4",
+                "name": "00001355-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/603c7ec1-5685-4fe6-98e1-15572ec7dd8f.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/0a29212e-6d0c-47af-94d3-99dc8424363d.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "51959d1e-37b3-44ea-9079-c56ad3aea319",
+                "name": "00001274-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/902dc74c-446f-4cdc-b45d-d8aac44ab13c.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/c18df22a-3522-4856-8122-81f30ea6c5e2.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "a16c0099-d664-4fe8-a2de-ab90ecd385cb",
+                "name": "00001275-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/ffa8ef3b-c29a-4c10-b747-83f5acb57699.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/bbf90be4-7f6b-4c40-9697-f1d58e5c4564.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "d3aac316-2f83-49eb-bcb3-8b1aefe55bc6",
+                "name": "00001277-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/0a06b302-fd96-4bfd-99fc-d88e81207532.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/d7140193-6352-45f7-8b98-d15f1ab7571a.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "882615a2-b952-4a19-8fce-8efb5d6c6e61",
+                "name": "00001279-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/b8d186cf-63dc-4a10-b424-5e65c90ed3ec.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/9088286f-9502-461b-a6b9-133bb7399188.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "fa3be087-c5b6-4ad9-bce9-205b98e58733",
+                "name": "00001311-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/7e6ec558-a2e6-415c-945f-7571efa432bd.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/863ef3b2-bd7c-4b4f-b3e8-a21fa7bfce9f.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "529d4913-4ef4-431e-874a-fe6ae03bd113",
+                "name": "00001318-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/601091e4-0a99-49b1-8261-dea74f11230c.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/33c38c99-c7c2-4c83-a899-94005859a59c.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "f1c3d077-0014-4e71-aac2-4e4fc0f97089",
+                "name": "00001338-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/b5556f08-06a7-438e-a1aa-61aa3832431f.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REJECTED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/34cb90a0-0c76-4d5b-b3b7-675604084134.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "2ca1d19e-f760-4fb2-8967-6befa1216bd0",
+                "name": "00001339-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/e7905db6-2a3a-4d48-9cfa-247c4213f0c6.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/ac3ebf9a-6729-481d-b4f6-05d19a5c6cb0.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "12aa7164-d0c3-44d1-8961-bdc4bbbefd90",
+                "name": "00001343-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/ded94c99-0da4-48ac-be38-9ce234fd941d.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/4dd6bc61-fdf5-47bb-9e9e-e1b336752dae.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "1aa1e6c2-1e10-44fc-969d-6838be965021",
+                "name": "00001351-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/835a7a7f-ec19-437e-a079-f8574416028d.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/aa78ef6b-aef3-42fb-abd2-555f9e3e6a5f.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "ddb73b31-4643-4c74-bace-5707a4fcc525",
+                "name": "00001354-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/e2075f8a-1bab-4fed-93d6-e21b2bb6d4f5.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/1305c1bf-8739-4f59-a0b0-a5dc7ec78c4c.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "c9fc3a4d-1391-4d01-b08a-e58f799b60d1",
+                "name": "00001359-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/fb257fa7-c1f6-4341-9e63-d895b038bf84.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/44d46157-aecd-4f3e-8a87-4c67ef860306.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "efe971b4-f05c-4b72-b82c-3d8a33fa9d45",
+                "name": "00001364-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/029ee52f-4945-4cba-bcc8-5e3dca6aa70b.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/0cb1a000-82f2-4aec-b018-db3184a6ef06.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "f420d9d7-00d5-4ce8-816a-a8e278fd8a7e",
+                "name": "00001384-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/a88f6ccb-10a8-4845-817b-16d60254fe16.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/e4e39063-2275-48ba-8adf-b96faac6cd1d.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "5d07eeba-f67c-4253-bdee-1d7a87b7de8e",
+                "name": "00001400-1.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/cdf5bdc1-0985-4cf9-af93-a323fbb502fb.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/6b26b201-9c87-4fbb-b988-bfdf310f701f.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "f749e9ca-b76a-4254-9e0a-701bfebe71a8",
+                "name": "00001414-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/9aba245e-4686-4f2b-b399-2d4104e26b66.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/b6e90370-ba10-4a64-b2bd-a572b1486b5d.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "ea7215c5-5349-47c5-838c-a50b027e6a7e",
+                "name": "00001421-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/cf50f547-a923-4b35-acbd-e87049222a9d.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/0ffc8798-da19-4628-8e03-7a70466e16e5.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "7a4d4473-e92a-48d2-ade7-05dc6ee90d02",
+                "name": "00001428-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/58b50e7c-bb42-442c-9192-d99b9c0189e4.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/b251afdf-e91a-443b-9d8d-7255242eb43f.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "c4455f17-5c37-44b1-9f4c-e12bb00f98ee",
+                "name": "00001431-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/af2855c1-3ff7-45fa-a6d7-8d0df84a4754.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/8954d24b-16e1-4784-b7b9-79c7fa0f4db7.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "111b77a5-23d7-4f10-a582-ef7646bbe8b9",
+                "name": "00001445-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/b9448dc6-6681-46ed-a78f-1585ec9957d1.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/b0ad9dec-d423-433a-aa36-d75966918dda.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "d50b00cf-dfe0-41f6-bb76-fe0914d8084d",
+                "name": "00001435-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/ba4053d1-79f0-4e89-a176-6156e4ac9b38.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/b9b1a3e7-752f-40c9-be08-2d88adc937f0.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "eb4268c1-26a0-4594-86ae-f58230537607",
+                "name": "00001443-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/5b4c675a-c7fc-462f-b6b5-8a83b6026ef2.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/91564fc7-9786-4411-97c3-4a8338a30e81.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "46690f08-0388-455c-9cc8-f0054e281608",
+                "name": "00001444-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/c3b567d1-ce2b-4af0-bb94-3da5838ee961.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/3dd0e624-992b-44cd-b26e-033d17f53c58.png"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "uuid": "f2fe745e-8461-4f91-86bc-787132822ca6",
+                "name": "00001446-2.png",
+                "attributes": {
+                    "image": {
+                        "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/2b6c7703-1360-4dfd-ade5-3c80a69a6a52.png"
+                    }
+                },
+                "metadata": {},
+                "labels": {
+                    "ground-truth": {
+                        "label_status": "REVIEWED",
+                        "attributes": {
+                            "format_version": "0.1",
+                            "annotations": [
+                                {
+                                    "id": 1,
+                                    "category_id": 1,
+                                    "attributes": {}
+                                },
+                                {
+                                    "id": 2,
+                                    "category_id": 2,
+                                    "attributes": {}
+                                }
+                            ],
+                            "segmentation_bitmap": {
+                                "url": "https://segmentsai-prod.s3.eu-west-2.amazonaws.com/assets/aamarnath1/2edb9585-48b5-4ff4-94f2-e3ea623349c0.png"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
