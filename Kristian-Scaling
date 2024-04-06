@@ -1,0 +1,95 @@
+import java.util.*;
+
+public class USDAAngleCalculation 
+{
+
+	public static void main(String[] args) 
+	{
+		List<Double> Arrx = new ArrayList<Double>();
+		Arrx.add(572.0);
+		Arrx.add(0.0);
+		for (int n = 0; n < 6; n++)
+		{
+			Arrx = calc(Arrx);
+			System.out.println(Arrx.size());
+			System.out.println(Arrx);
+		}
+		List<Double> Arry = new ArrayList<Double>();
+		Arry.add(572.0);
+		Arry.add(0.0);
+		for (int n = 0; n < 6; n++)
+		{
+			Arry = calc(Arry);
+			System.out.println(Arry.size());
+			System.out.println(Arry);
+		}
+		List<Double> Arrz = new ArrayList<Double>();
+		Arrz = average(Arrx, Arry);
+		System.out.println(Arrz.size());
+		System.out.print(Arrz);
+		scale(Arrz);
+	}
+	public static List<Double> calc(List<Double> Arrx)
+	{
+		int size = Arrx.size();
+		for(int a = 0; a < size - 1; a++)
+		{
+			double temp = (Arrx.get(a * 2)+ Arrx.get(a * 2 + 1)) / 2;
+			Arrx.add(a * 2 + 1, temp);
+		}
+		return Arrx;
+	}
+	public static List<Double> average(List<Double> Arrx, List<Double> Arry)
+	{
+		List<Integer> Arrz = new ArrayList<Integer>();
+		List<Double> Arrtest = new ArrayList<Double>();
+		for (int n = 0; n < Arrx.size(); n++)
+		{
+			double temp = (Arrx.get(n) + Arry.get(n)) / 2;
+			Arrtest.add(temp);
+			int temp2 = (int) Math.round(temp);
+			Arrz.add(temp2);
+		}
+		System.out.println(Arrtest.size());
+		System.out.println(Arrtest);
+		return Arrtest;
+	}
+
+	public static void scale (List<Double> Arrz)
+	{
+		int length = Arrz.size();
+		double yone = Arrz.get(length - 1);
+		double xoneone = (yone - 233.733) / 3.46666666667;
+		double xonetwo = (yone - 2241.275) / (0 - 2.66972477064);
+		double ytwo = Arrz.get(length - 2);
+		double xtwoone = (ytwo - 233.733) / 3.46666666667;
+		double xtwotwo = (ytwo - 2241.275) / (0 - 2.66972477064);
+		double standardsize = ((((xonetwo - xoneone) + (xtwotwo - xtwoone)) / 2) * (ytwo - yone));
+		
+		List<Double> Arrfinal = new ArrayList<Double>();
+		int yonefinal = (int) Math.round(yone);
+		int ytwofinal = (int) Math.round(ytwo);
+		double yonefinaly = (double) yonefinal;
+		double ytwofinaly = (double) ytwofinal;
+		Arrfinal.add(yonefinaly);
+		Arrfinal.add(1.0);
+		Arrfinal.add(ytwofinaly);
+		for (int n = 1; n < length - 1; n++)
+		{
+			double testyone = Arrz.get(length - n - 1);
+			double testxoneone = (testyone - 233.733) / 3.46666666667;
+			double testxonetwo = (testyone - 2241.275) / (0 - 2.66972477064);
+			double testytwo = Arrz.get(length - n - 2);
+			double testxtwoone = (testytwo - 233.733) / 3.46666666667;
+			double testxtwotwo = (testytwo - 2241.275) / (0 - 2.66972477064);
+			double sectionsize = ((((testxonetwo - testxoneone) + (testxtwotwo - testxtwoone)) / 2) * (testytwo - testyone));
+			double magfactor = standardsize / sectionsize;
+			int yfinal = (int) Math.round(testytwo);
+			double yfinaly = (double) Math.round(yfinal);
+			Arrfinal.add(magfactor);
+			Arrfinal.add(yfinaly);
+		}
+		System.out.println(Arrfinal.size());
+		System.out.println(Arrfinal);
+	}
+}
